@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Bem-vindo ao GitHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section>
+<form action="http://localhost:3000/login" method="GET">
+  First name: <input type="text" name="username"><br>
+  Last senha: <input type="text" name="password"><br>
+ <button type="submit">Send to backend</button>
+</form>
+<form action="http://localhost:3000/delete/" method="DELETE">
+  Last name: <input type="number" name="id"><br>
+ <button type="submit">Send to backend</button>
+</form>
+</section>
+    <!-- Seção Principal -->
+    <main>
+        <section id="user">
+            <h2>Usuario</h2>
+            <p>Esta é a seção de introdução do site. Adicione algumas informações sobre o que o seu site oferece.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Aqui você pode adicionar informações sobre você ou sua empresa.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Descreva os serviços que você oferece.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GitHub. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
